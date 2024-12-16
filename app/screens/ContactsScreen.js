@@ -9,7 +9,7 @@ export const Contacts = ({ navigation }) => {
                 title="Volver al inicio"
                 color="#4CAF50" // Cambiamos el color del botón
                 onPress={() => {
-                    navigation.navigate('HomeNav');
+                    navigation.navigate('WellcomeNav');
                 }}
             />
         </View>
